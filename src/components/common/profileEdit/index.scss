@@ -1,0 +1,145 @@
+$white: #fff;
+$google-blue: #4285f4;
+$button-active-blue: #1669F2;
+
+
+
+.Card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 80px;
+    left: 30vw;
+    // display: flex;
+    width: 470px;
+    height: auto;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+
+    .Edit-btn-go{
+        position: absolute;
+        top:5px;
+        right: 10px;
+        width: 100px;
+        height: 40px;
+        color: white;
+        background-color: rgb(11, 94, 211);
+        cursor: pointer;
+        border-radius: 30px;
+
+        &:hover {
+            box-shadow: 0 0 6px $google-blue;
+        }
+
+        &:active {
+            background: $button-active-blue;
+        }
+    }
+
+   
+    .Edit-btn {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 40px;
+        color: white;
+        background-color: rgb(11, 94, 211);
+        cursor: pointer;
+        border-radius: 30px;
+
+        &:hover {
+            box-shadow: 0 0 6px $google-blue;
+        }
+
+        &:active {
+            background: $button-active-blue;
+        }
+    }
+
+
+
+
+    .profile-edit-input {
+
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        // background-color: black;
+        // color: white;
+        .auth-common-inputs {
+            // margin: 15px 0;
+            // display: flex;
+            text-align: center;
+            color: black;
+            background-color: white;
+            height: 25px;
+            width: 400px;
+            border-radius: 5px;
+        }
+        .auth-common-text{
+            text-align: center;
+            color: black;
+            background-color: white;
+            // height: 25px;
+            width: 400px;
+            
+            border-radius: 5px;
+            margin-top: 7px;
+            :focus{
+                outline: 1px solid $google-blue;
+            }
+        }
+       .label_Na{
+        position: relative;
+        left: -11.5vw;
+       }
+       .label_Co{
+        position: relative;
+        left: -11vw;
+       }
+       .label_Co{
+        position: relative;
+        left: -11vw;
+       }
+       .label_He{
+        position: relative;
+        left: -11vw;
+       }
+       .label_Lo{
+        position: relative;
+        left: -11vw;
+       }
+       .label_We{
+        position: relative;
+        left: -11vw;
+       }
+       .about{
+        position: relative;
+        left: -11vw;
+
+       }
+       .Skills{
+        position: relative;
+        left: -11vw;
+
+       }
+       
+
+
+    }
+}
+
+// .label{
+//     color: red;
+//     position: absolute;
+//     left: 30px;
+//     margin-bottom: 3px;
+// }

@@ -1,0 +1,51 @@
+
+.post-main{
+    // background-color: red;
+   
+   
+    flex-direction: column;
+    width: 550px;
+    position: absolute;
+    // z-index: 2;
+    top: 80px;
+    left: 300px;
+    // height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: solid 2px red;
+    .post-update{
+
+        background-color: white;
+        width: 550px;
+        height: 100px;
+        position: relative;
+        
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        padding: 10px;
+       
+        // background-color: red;
+        // border: solie black 2 px;
+        .start-post-btn{
+            // cursor: pointer;
+            // background-color: red;
+            width: 85%;
+            height:45%;
+            border: 1px solid #e9e4e4;
+            border-radius: 30px;
+            text-align: left;
+            padding-left: 6px;
+            font-family: system-ui, sans-serif;
+            cursor: pointer;
+    
+
+
+            
+        
+        }
+    }
+}
+

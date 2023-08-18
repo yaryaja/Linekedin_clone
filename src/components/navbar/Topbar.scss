@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Topbar {
+    z-index: 5;
+    width: 100vw;
+    height: 50px;
+    
+    // border: solid 2px red;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(253, 253, 253, 0.986);
+
+
+    top: 0;
+
+    .Toplogo {
+        width: 55px;
+        position: relative;
+        left: 15vw;
+
+    }
+
+    .icons {
+        // margin: 0 5px;
+        right: 25vw;
+        width: 30vw;
+        // border: solid 2px rgb(230, 223, 223);
+        outline: none;
+        box-sizing: border-box;
+
+        display: flex;
+        height: 80%;
+        // justify-content: space-between;
+        align-items: center;
+        position: relative;
+        justify-content: space-around;
+    }
+
+}
+
+.icon {
+    color: #787878;
+
+    :hover {
+        cursor: pointer;
+        color: black;
+        text-decoration: underline;
+
+
+    }
+
+}
+
+.profile {
+    cursor:pointer;
+    position: absolute;
+    // right: 15vw;
+
+}
+
+
+
+.search-bar {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    align-items: center;
+    background-color: #e1d2d2;
+    border-radius: 4px;
+    // overflow: visible;
+    width: 250px;
+    /* Initial width of the search bar */
+    transition: width 0.3s;
+    // outline: auto;
+    /* Transition to animate the width change */
+}
+
+#search-input {
+    background-color: #e1d2d2;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    flex: 1;
+    outline: none;
+}
+
+#search-button {
+    background-color: #0A66C2;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* When the search bar gains focus, increase its width */
+.search-bar:focus-within {
+    width: 320px;
+    /* Width when the search bar is focused */
+}
+
+/* Adjust the width accordingly for responsiveness on smaller screens */
+@media screen and (max-width: 768px) {
+    .search-bar {
+        width: 100px;
+        /* Make the search bar full width on smaller screens */
+    }
+
+    /* Reset the width when focused on smaller screens to avoid overlap */
+    
+}
